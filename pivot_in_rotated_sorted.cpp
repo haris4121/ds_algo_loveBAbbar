@@ -51,11 +51,19 @@ int pivotRotatedRecusrion(int *vec , int start ,int end )
 
 int main()
 {
-    int arr[20] = {5,6,7,1,2,3,4};
+    // int arr[20] = {5,6,7,1,2,3,4};
 
-    cout<<pivotRotatedSorted(arr,7)<<endl;
+    // cout<<pivotRotatedSorted(arr,7)<<endl;
 
-    cout<<pivotRotatedRecusrion(arr,0,6)<<endl;
+    // cout<<pivotRotatedRecusrion(arr,0,6)<<endl;
+     vector<vector<int>> track(5,vector<int> (5,0)) ;
 
+     for(int i =0;i<5;i++)
+     {
+         for(int j=0;j<5;j++)
+         {
+             cout<<track[i][j];
+         }
+     }
     return 0;
 }
